@@ -5,11 +5,17 @@
     <!--<script type="text/javascript" src="js/md5.js"></script>-->
     <script type="text/javascript" src="js/CharacterScreen.js"></script>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/characterActions.css" rel = "stylesheet">
     <!--<script type="text/javascript" src="js/bootstrap.min.js"></script>-->
 
 </head>
     <body>
-        <button onclick="ChangeCharacterText(1)">Click here to change text</button>
+        <div class = flex-container>
+            <button onclick="ChangeCharacterText(0)" class = "card">Click here to change text</button>
+            <button onclick="ChangeCharacterText(1)" class = "card">Click here to change text</button>
+            <button onclick="ChangeCharacterText(2)" class = "card">Click here to change text</button>
+        </div>
+
         <p id = "characterText">
 
         </p>
