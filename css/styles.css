@@ -24,6 +24,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 body {
   background-color: #281d17;
   height: 100vh;
@@ -104,4 +105,55 @@ nav li {
 
 .icon {
   margin: 0 5px;
+}
+
+/* Characters */
+#characterBanner {
+  background: rgb(40, 29, 23);
+  background: linear-gradient(
+      180deg,
+      rgba(40, 29, 23, 0) 50%,
+      rgba(40, 29, 23, 1) 96%
+    ),
+    url("../assets/img/screen2.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.character-container {
+  background-color: #5c4437;
+  width: 85vw;
+  height: 76vh;
+  border-radius: 20px;
+}
+
+/* News */
+#newsBanner {
+  background: rgb(40, 29, 23);
+  background: linear-gradient(
+      180deg,
+      rgba(40, 29, 23, 0) 50%,
+      rgba(40, 29, 23, 1) 96%
+    ),
+    url("../assets/img/screen4.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Modes */
+#modeBanner {
+  background: rgb(40, 29, 23);
+  background: linear-gradient(
+      180deg,
+      rgba(40, 29, 23, 0) 50%,
+      rgba(40, 29, 23, 1) 96%
+    ),
+    url("../assets/img/trailer_img.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
